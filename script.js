@@ -86,7 +86,7 @@ function checky(){
 function f(){
     if(this.innerText==""&&c=="O"){
         this.innerText="X";
-        this.style.color="orange";
+        this.style.color="lime";
         p.innerText="PLAYER '2' TURN";
         p.style.color="blue";
         c="X";
@@ -96,7 +96,7 @@ function f(){
         this.innerText="O";
         this.style.color="blue";
         p.innerText="PLAYER '1' TURN";
-        p.style.color="orange";
+        p.style.color="lime";
         c="O";
         fill();
         checky();
