@@ -3,6 +3,11 @@
     box-sizing: border-box;
     background-color: black
 }
+@media (max-width : 600px){
+    body{
+        transform: scale(0.5);
+    }
+}
 .game{
     position: absolute;
     left: 18%;
